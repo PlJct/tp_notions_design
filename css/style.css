@@ -1,0 +1,31 @@
+
+
+.second_div{
+  box-sizing: content-box;
+  float:left;
+  border: 20px black solid;
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
+}
+
+.third_div{
+  box-sizing: border-box;
+  /* I DON'T GET IT*/
+  float:left;
+  border: 20px black solid;
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
+}
+
+p{
+  color: #222222;
+  width: 80em;
+  /*il est conseillé scientifiquement d'avoir un texte à lire avec 80 signes*/
+}
+
+.third_div p{
+line-height: 21px;
+font-weight: 800;
+}
